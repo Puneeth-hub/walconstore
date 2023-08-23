@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/61fdac2bd4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-contianer">
+        <div class="head-box">
+          <div class="store-heading-box">
+              <h1 class="store-heading">Walcon clothes</h1>
+          </div>
+          <div class="blink-box">
+            <p><span class="blink">Flat 50%</span> OFF</p>
+          </div>
+        </div><hr/>
+        <div>
+            <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016098/shirt1_xugfrz.png" class="mobile-image" />
+        </div>
+        <div class="bg-container">
+            <div class="items-container">
+                <div>
+                    <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016098/shirt1_xugfrz.png" class="image" />
+                    <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016641/shirt2_ddvphb.png" class="image" />
+                </div>
+                <div>
+                    <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016651/shirt3_saw9wk.png" class="image" />
+                    <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016660/shirt4_aonmca.png" class="image" />
+                </div>
+            </div>
+            <div>
+                <p class="clothing">CLOTHING</p>
+                <h1 class="top-heading">RIBAINE LS TOP - CHOCOLATE </h1>
+                <p class="price">$38.20</p>
+                <p class="include-tax">inclusive of all taxes</p>
+                <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text ever
+                    since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book. It has survived not only
+                    five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.
+                </p>
+                <p class="color-text">COLOR: <span>Brown</span></p>
+                <ul class="colors-container">
+                    <li class="box" onclick="clickColor1()" id="list1">
+                        <div class="color-box color-1"></div>
+                    </li>
+                    <li class="box" onclick="clickColor2()" id="list2">
+                        <div class="color-box color-2"></div>
+                    </li>
+                    <li class="box" onclick="clickColor3()" id="list3">
+                        <div class="color-box color-3"></div>
+                    </li>
+                    <li class="box" onclick="clickColor4()" id="list4">
+                        <div class="color-box color-4"></div>
+                    </li>
+                </ul>
+                <p class="size-text">SIZE:XS</p>
+                <ul class="sizes-container">
+                    <li class="size-box" id="size1" onclick="changeSize1()">XS</li>
+                    <li class="size-box" id="size2" onclick="changeSize2()">S</li>
+                    <li class="size-box" id="size3" onclick="changeSize3()">M</li>
+                    <li class="size-box" id="size4" onclick="changeSize4()">L</li>
+                    <li class="size-box" id="size5" onclick="changeSize5()">XL</li>
+                </ul>
+                <div class="button-container">
+                    <div class="quantity-container">
+                        <p class="quantity" id="decrease" onclick="decreaseCount()">-</p>
+                        <p class="number" id="number">2</p>
+                        <p class="quantity" id="increase" onclick="increaseCount()">+</p>
+                    </div>
+                    <button id="button" onclick="addCartItem()" class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="bottom-box">BUY IT NOW </div>
+                <div class="icons-container">
+                    <div class="icon-box">
+                        <i class="fa-brands fa-react icon"></i>
+                        <span class="icon-text">Materials</span>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fa-solid fa-box-open icon"></i>
+                        <span class="icon-text">Shipping & Returns</span>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-hand-holding-hand icon"></i>
+                        <span class="icon-text">Care Guide</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="create-container">
+            <h1 class="heading">THE PERFECT FIT OR YOUR MONEY BACK</h1>
+            <p class="para">We understand that creating your custom size can feel
+                daunting. But not to worry, it's actually quite easy and
+                completely risk-free. If you're not 100% happy with your fit,
+                we'll remake your first shirt from scratch free of charge or
+                give your money back.</p>
+            <div class="create-box">CREATE YOUR DESIGN</div>
+        </div>
+        <p class="product-heading">PRODUCT FEATURES</p>
+        <div class="images-container">
+            <div class="image-box">
+                <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016669/item1_jbyzsu.jpg" class="picture" />
+                <h1 class="image-heading">TAP FRONT WITH BUTTON</h1>
+                <P class="image-para">Fashion to me has become
+                    very disposable; I wanted to get back to craft,
+                    to clothes that could last.
+                </P>
+            </div>
+            <div class="image-box">
+                <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016678/item2_bre4xv.png" class="picture" />
+                <h1 class="image-heading">CARBON FOOTPRINT </h1>
+                <P class="image-para">Never in the history of the world
+                    have women been more in control of their destiny.
+                </P>
+            </div>
+            <div class="image-box">
+                <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016689/item3_w36gzf.png" class="picture" />
+                <h1 class="image-heading">PROVENANCE JOURNEY</h1>
+                <P class="image-para"> Fashion to me has become very disposable;
+                    I wanted to get back to craft, to clothes that could last.
+                </P>
+            </div>
+            <div class="image-box">
+                <img src="https://res.cloudinary.com/randy-orton/image/upload/v1669016700/item4_p2d5zs.png" class="picture" />
+                <h1 class="image-heading">MADE IN PORTUGAL</h1>
+                <P class="image-para"> Never in the history of the world have
+                    women been more in control of their destiny.
+                </P>
+            </div>
+        </div>
+    </div><hr/>
+    
+    <footer class="footer-coder"><p class="footer-copy-rights">&copy; 2023 Puneet Shetty. All rights reserved.</p></footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+</html>
